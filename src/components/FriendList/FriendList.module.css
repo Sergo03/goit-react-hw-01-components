@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  align-items: center;
+}
+.margin {
+  margin-right: 10px;
+}
+
+.true {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  composes: margin;
+}
+.false {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  composes: margin;
+}
+.avatar {
+  composes: margin;
+}

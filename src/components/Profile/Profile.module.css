@@ -1,0 +1,30 @@
+.profile {
+  background-color: rgb(223, 220, 215);
+  width: 350px;
+  text-align: center;
+  margin: auto;
+}
+.description {
+  background-color: rgba(243, 242, 242, 0.986);
+  width: 150px;
+  margin: auto;
+}
+
+.tag {
+  color: rgb(96, 97, 96);
+}
+.location {
+  color: rgb(96, 97, 96);
+}
+
+.stats {
+  display: inline-flex;
+  padding: 0;
+}
+
+
+.list {
+  display: inline-grid;
+
+  margin-right: 10px;
+}
