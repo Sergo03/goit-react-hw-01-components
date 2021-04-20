@@ -3,8 +3,9 @@ import PropsTypes from 'prop-types';
 import styles from './Statistics.module.css'
 
 const Statistics = ({ title, stats }) => {
+    const renderTitle = title ? < h2 className = { styles.title } > { title }</h2> : null;
     return (<section className={styles.statistics}>
-        <h2 className={styles.title}>{title}</h2>
+        {renderTitle}
         <ul className={styles.list}>
             {stats.map((stat) => (
                 <li className={styles.item} key={stat.id}>
